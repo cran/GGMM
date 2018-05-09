@@ -1,0 +1,10 @@
+import(mvtnorm, equSA, huge)
+importFrom("stats", "pnorm", "qnorm", "rnorm")
+export(GGMM, SimHetDat, BRGM)
+
+
+
+
+
+
+
