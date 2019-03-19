@@ -30,10 +30,11 @@ BRGM(data, M=3, alpha1 = 0.05, alpha2 = 0.02, alpha3 = 0.2, iteration = 30, warm
 
 \examples{
  \dontshow{
-set.seed(10)
+suppressWarnings(RNGversion("3.5.0"))
+set.seed(100)
 library(GGMM)
 data(breast)
-Gra <- BRGM(breast[1:50,1:5], M=2,alpha1 = 0.5, alpha2 = 0.8, alpha3 = 0.9, iteration = 1, warm = 0)
+Gra <- BRGM(breast[1:60,1:5], M=2,alpha1 = 0.8, alpha2 = 0.9, alpha3 = 0.9, iteration = 1, warm = 0)
 }
 \donttest{
 

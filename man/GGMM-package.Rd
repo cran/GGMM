@@ -14,8 +14,8 @@ The Gaussian graphical model is a widely used tool for learning gene regulatory 
 \tabular{rl}{
 Package: \tab GGMM\cr
 Type: \tab Package\cr
-Version: \tab 1.0.0\cr
-Date: \tab 2018-05-07\cr
+Version: \tab 1.0.1\cr
+Date: \tab 2019-03-17\cr
 License: \tab GPL-2\cr
 }
 
